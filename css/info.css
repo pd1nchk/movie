@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&family=Yomogi&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+/* Navigation Bar */
+#navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+}
+
+#logo {
+    margin: 5px 20px;
+}
+
+#logo img {
+    height: 75px;
+    width: 75px;
+    margin: 3px 20px;
+}
+
+#navbar ul {
+    display: flex;
+    font-family: 'Bree Serif', serif;
+    justify-content: center;
+    width: 100%;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 3px 23px;
+    text-decoration: none;
+    border-radius: 20px;
+    color: white;
+
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
+.h1_about {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-style: bold;
+    color: white;
+    font-family: 'Bree Serif', serif;
+    margin: 15px 15px 15px 15px;
+}
+
+#about {
+    display: flex;
+    margin: 20px 20px 20px 20px;
+}
+
+#about .about_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid brown;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #00000065;
+    margin-right: 16px;
+}
+
+#about .about_text p {
+    text-align: center;
+    color: white;
+    font-family: 'Bree Serif', serif;
+    font-size: medium;
+}
+
+#about .about_img {
+    /* justify-content: center; */
+    justify-items: center;
+    margin: 10px 10px 10px 10px;
+}
+
+#about .about_img img {
+    width: auto;
+    height: auto;
+    align-content: center;
+}
+
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical
+        /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border: 2px solid brown;
+    padding: 8px;
+    border-radius: 16px;
+    background-color: #00000065;
+    border-radius: 5px;
+    color: white;
+}
+
+.btn {
+    padding: 6px 20px;
+    background-color: brown;
+    border: 2px solid white;
+    margin: 18px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    justify-content: center;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+table {
+    margin-left: 10%;
+    text-align: center;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th,
+td {
+    width: 20%;
+    font-family: 'Baloo Bhai 2', cursive;
+    border:  1px solid black;
+    color: white;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #00000050;
+}
+
+th {
+    border:  1px solid red;
+    width: 25%;
+    background-color: #000000;
+    color: rgb(255, 0, 0);
+}
+
+.button {
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    border: 4px solid rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.5);
+    color: rgb(255, 255, 255);
+    outline: none;
+    border-radius: 30px;
+    font-size: 30px;
+    width: 500px;
+
+}
+
+.button:hover {
+    color: red;
+    background: black;
+    border: 4px solid red;
+}
+
+.center {
+    text-align: center;
+}
+
+footer {
+    background: black;
+    padding: 10px 25px;
+}

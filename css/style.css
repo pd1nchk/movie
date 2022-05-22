@@ -1,0 +1,118 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#navbar {
+    flex-direction: column;
+}
+
+#navbar ul li a {
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+
+#movies {
+    flex-direction: column;
+}
+
+#movies .box {
+    width: 90%;
+    padding: 14px;
+    margin: 20px 20px 20px 20px;
+}
+
+#contact-box form {
+    width: 80%;
+}
+
+.h-primary {
+    font-size: 26px;
+}
+
+.btn {
+    font-size: 13px;
+    padding: 4px 8px;
+}
+
+#description {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#description .box {
+    display: flex;
+    flex-direction: column;
+}
+
+#description .box img {
+    width: 100%;
+    margin: 8px 8px 8px 8px;
+    border-radius: 8px;
+}
+
+#about {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#about .about_img {
+    display: flex;
+    justify-content: center;
+}
+
+#about .about_img image {
+    width: 40%;
+    height: 60%;
+    align-items: center;
+}
+
+#about .about_text {
+    width: 100%;
+    align-items: center;
+    background-color: #00000065;
+}
+
+#cinemas_container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+#login-box {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    justify-content: center;
+    align-items: center;
+}
+.text-navi{
+    font-size: 250%; 
+}
+
+.center{
+    font-size: 250%;
+}
+
+#cinemas_container .cinemas_box p {
+    font-family: 'Bree Serif', bold;
+    color: black;
+    font-size: 250%;
+    font-style: bold;
+    text-align: center;
+}
+
+.fname{
+    font-size: 250%;
+}
+
+.btn{
+    font-size: 180%;
+}
+
+.text-MyTick{
+    font-size: 180%;
+}

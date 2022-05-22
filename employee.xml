@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<users>
+    <user id="1">
+        <firstname>Daniil</firstname>
+        <lastname>Kozlyakovski</lastname>
+        <email>daniil_tanki@gmail.com</email>
+        <review>A good site with very convenient functionality.</review>
+    </user>
+    <user id="2">
+        <firstname>Nikita</firstname>
+        <lastname>Ilyin</lastname>
+        <email>nik_ilyin03@yandex.ru</email>
+        <review>That is AWESOME!</review>
+    </user>
+    <user id="3">
+        <firstname>Tony</firstname>
+        <lastname>Ferguson</lastname>
+        <email>fergusonxt@gmail.com</email>
+        <review>It's time for tiramisu!</review>
+    </user>
+    <user id="4">
+        <firstname>Sergey</firstname>
+        <lastname>Milchanin</lastname>
+        <email>sooryyyy@mail.ru</email>
+        <review>Boom! Here's the best website for you!</review>
+    </user>
+    <user id="5">
+        <firstname>Arthur</firstname>
+        <lastname>Falouskij</lastname>
+        <email>falouskij69@gmail.com</email>
+        <review>I didn't see anything better today!</review>
+    </user>
+    <user id="6">
+        <firstname>Vladislav</firstname>
+        <lastname>Rogovtsov</lastname>
+        <email>rog25@tut.by</email>
+        <review>The site is on fire! Very good!</review>
+    </user>
+    <user id="7">
+        <firstname>Ilya</firstname>
+        <lastname>Filyaev</lastname>
+        <email>fil1081@gmail.ru</email>
+        <review>Convenient and very practical!</review>
+    </user>
+    <user id="8">
+        <firstname>Cristiano</firstname>
+        <lastname>Ronaldo</lastname>
+        <email>cr07@gmail.com</email>
+        <review>My favorite site, I advise everyone!</review>
+    </user>
+    
+   
+  
+</users>

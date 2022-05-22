@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" media="screen and (max-width: 1200px)" href="css/style.css">
+    <title>MTN</title>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <svg width="30" height="20" viewBox="0 0 30 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <img src="img/logo.svg">
+            </svg>
+        </div>
+        <ul>
+            <li class="item"><a href="main.html">
+                    <p class="text-navi">Main</p>
+                </a></li>
+            <li class="item" onclick="onClickedOrderItem()"><a href="order.html">
+                    <p class="text-navi">Order tickets</p>
+                </a></li>
+            <li class="item"><a href="registration.html">
+                    <p class="text-navi">Registration</p>
+                </a></li>
+            <li class="item"><a href="info.html">
+                    <p class="text-navi">About</p>
+                </a></li>
+            <li class="item"><a href="cinemas.html">
+                    <p class="text-navi">Cinemas</p>
+                </a></li>
+        </ul>
+    </nav>
+
+    <section id="main">
+        <h1 class="h-primary center"> In theaters now</h1>
+        <div id="movies">
+            <div class="box">
+                <img src="img/tor_ragnarok.jpg" alt="" srcset="">
+                <h2 class="h-secondary center">Tor Ragnarok</h2>
+                <p class="center">Thor: Ragnarok is a 2017 superhero film, based on the Marvel Comics superhero of the
+                    same name. The film is a sequel to Thor, Thor: The Dark World, Avengers: Age of Ultron, and Doct
+                    nt of Phase Three. The film was released on October 24, 2017 internationally and on November 3,
+                    2017 in the United States. The film is directed by Taika Waititi.</p>
+                <button id="tor_btn" class="btn" onclick="onClickedTopOrder()">Order now</button>
+            </div>
+            <div class="box">
+                <img src="img/spined_man_poset.jpeg" alt="" srcset="">
+                <h2 class="h-secondary center">Spiedr Man 3</h2>
+                <p class="center">Spider-Man: No Way Home is a 2021 superhero film, based on the Marvel Comics superhe
+                    ro of the same name. The film is a sequel to Spider-Man: Homecoming and Spider-Man: Far From Hom
+                    e, as well as a crossover/sequel to the Spider-Man trilogy and The Amazing Spider-Man duology.It
+                    The film was released on December 17, 2021.The film is directed .</p>
+                <button id="spider_btn" class="btn" onclick="onClickedSpiderManOrder()">Order now</button>
+            </div>
+            <div class="box">
+                <img src="img/venon_poster.jpg" alt="" srcset="">
+                <h2 class="h-secondary center">Venom 2</h2>
+                <p class="center">Venom, also known as the Lethal Protector, is an extraterrestrial symbiote that is
+                    bonded to a human named Eddie Brock. After being transported from its universe to another as a
+                    result of a spell cast by Doctor Strange, it learned about the Avengers, Spider-Man and Thanos
+                    before it, along with Brock, were returned back to their universe.</p>
+                <button id="venom_btn" class="btn" onclick="onClickedVenomOrder()">Order now</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="center">
+            <a href="https://www.instagram.com/pdlnchk/"><img src="img/fab_inst.svg"></a>
+            <a href="https://vk.com/podolyanchik55"><img src="img/fab_vk.svg"></a>
+        </div>
+    </footer>
+
+    <script src="js/main_hadle_order.js"></script>
+</body>
+
+</html>

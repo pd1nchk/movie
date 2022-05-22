@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="css/order.css" />
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" media="screen and (max-width: 1200px)" href="css/style.css">
+
+  <title>MTN</title>
+</head>
+
+<body onload="loadCalendar()">
+
+  <nav id="navbar">
+    <div id="logo">
+      <svg width="31" height="20" viewBox="0 0 31 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <img src="img/logo.svg">
+      </svg>
+    </div>
+    <ul>
+      <li class="item"><a href="main.html"><p class="text-navi">Main</p></a></li>
+      <li class="item" onclick="onClickedOrderItem()"><a href="order.html"><p class="text-navi">Order tickets</p></a></li>
+      <li class="item"><a href="registration.html"><p class="text-navi">Registration</p></a></li>
+      <li class="item"><a href="info.html"><p class="text-navi">About</p></a></li>
+      <li class="item"><a href="cinemas.html"><p class="text-navi">Cinemas</p></a></li>
+    </ul>
+  </nav>
+
+  <div class="movie-container">
+    <select id="movie">
+      <option value="9">Tor Ragnarok ($9)</option>
+      <option value="12">Spine-Man: No Way Home ($12)</option>
+      <option value="13">Venom 2 ($13)</option>
+    </select>
+  </div>
+
+  <div id="description">
+    <div class="box">
+      <img id="movie_poster" src="img/tor_ragnarok.jpg">
+    </div>
+
+    <div class="box">
+      <label id="movie_label" class="first-label">Film name</label>
+      <label id="movie_description" class="second-label">Film description</label>
+    </div>
+  </div>
+
+  <ul class="showcase">
+    <li>
+      <div class="seat"></div>
+      <small>N/A</small>
+    </li>
+    <li>
+      <div class="seat selected"></div>
+      <small>Selected</small>
+    </li>
+    <li>
+      <div class="seat occupied"></div>
+      <small>Occupied</small>
+    </li>
+  </ul>
+
+  <div id="select-payment-container">
+    <div class="container">
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+      </div>
+    </div>
+
+    <div class="payment_type">
+     
+      <p class="pay-text">Payment type:</p>
+      
+      <div id="input_payment">
+        <input class="radBtn" type="radio" id="cash" name="payment" value="Cash">
+        <label for="cash"><p class="radBtn-text">   Cash</p></label><br>
+      </div>
+      
+      <div id="input_payment">
+        <input class="radBtn" type="radio" id="credit_card" name="payment" value="CreditCard">
+        <label for="credit_card"><p class="radBtn-text">Credit card</p></label><br>
+      </div>
+    </div>
+
+  </div>
+
+  <p class="text-MyTick">
+    You have selected <span id="count">0</span> seats for a price of $<span id="total">0</span>
+  </p>
+
+  <div id="calendar" style="width:20rem;">
+    <h1>Calendar</h1>
+    <div style="width: 20%; float:left; text-align: center;">
+      <a class="chousenArr" href="javascript: changeMonth(-1);">&lt;&lt;</a>
+    </div>
+    <div style="width: 60%; float:left; text-align:center;" id="choosenMonth">--</div>
+    <div style="width: 20%; float:left; text-align: center;">
+      <a class="chousenArr" href="javascript: changeMonth(1);">&gt;&gt;</a>
+    </div>
+    <table id="tableCalendar" style="width: 20rem;"></table>
+  </div>
+
+  <button class="btn_order" onclick="window.location.reload()">Order</button>
+
+  <script src="js/order.js"></script>
+  <script src="js/calendar.js"></script>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/registration.css">
+    <link rel="stylesheet" media="screen and (max-width: 1200px)" href="css/style.css">
+    <title>MTN</title>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <svg width="31" height="20" viewBox="0 0 31 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <img src="img/logo.svg">
+            </svg>
+        </div>
+        <ul>
+            <li class="item"><a href="main.html"><p class="text-navi">Main</p></a></li>
+            <li class="item" onclick="onClickedOrderItem()"><a href="order.html"><p class="text-navi">Order tickets</p></a></li>
+            <li class="item"><a href="registration.html"><p class="text-navi">Registration</p></a></li>
+            <li class="item"><a href="info.html"><p class="text-navi">About</p></a></li>
+            <li class="item"><a href="cinemas.html"><p class="text-navi">Cinemas</p></a></li>
+        </ul>
+    </nav>
+
+    <body>
+        <div id="login-box">
+            <div class="registration_block">
+                <h1>Sign up</h1>
+                <div class="input_block">
+                    <form>
+                    <input id="1" type="text" name="username" placeholder="Username" />
+                    <input id="2" type="text" name="email" placeholder="E-mail" />
+                    <input id="3" type="password" name="password" placeholder="Password" />
+                    <input id="4" type="password" name="password2" placeholder="Retype password" />
+                    <button type="button" onclick="download(this.form)" name="signup_submit">Sign me up</button>
+                  </form>
+                </div>
+            </div>
+            
+            <div class="registration_block">
+                <div class="social_btns">
+                    <a href="https://vk.com/login" target="_blank"><button class="social-signin vk">Log in with
+                            Vk</button></a>
+                    <a href="http://instagram.com/" target="_blank"><button class="social-signin instagram">Log in with
+                            Instagram</button></a>
+                    <a href="https://myaccount.google.com/" target="_blank"><button class="social-signin google">Log in
+                            with
+                            Google+</button></a>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/main_hadle_order.js"></script>
+        <script src="js/data.js"></script>
+        <script src="js/export.js"></script>
+        
+
+    </body>
+
+</html>

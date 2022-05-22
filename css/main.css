@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&family=Yomogi&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+/* Navigation Bar */
+#navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+}
+
+#logo {
+    margin: 5px 20px;
+}
+
+#logo img {
+    height: 75px;
+    width: 75px;
+    margin: 3px 20px;
+}
+
+#navbar ul {
+    display: flex;
+    font-family: 'Bree Serif', serif;
+    justify-content: center;
+    width: 100%;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 3px 23px;
+    text-decoration: none;
+    border-radius: 20px;
+    color: white;
+
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
+/* Movies Section */
+
+#movies-container {
+    margin: 2rem;
+}
+
+#movies {
+    display: flex;
+    margin: 30px;
+    margin-top: 2px;
+}
+
+#movies .box {
+    display: flex;
+    width: 33%;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 25px 20px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    box-shadow: -15px 15px 5px rgba(25, 48, 90, 0.5);
+    margin-bottom: 20px;
+}
+
+#movies .box img {
+    display: block;
+    margin: auto;
+    width: 75%;
+    border-radius: 10px;
+}
+
+#movies .box p {
+    text-align: center;
+    width: 100%;
+    font-family: 'Yomogi', cursive;
+}
+
+/* Footer */
+footer {
+    background: black;
+    padding: 10px 25px;
+}
+
+/* Utility Classes */
+
+.h-primary {
+    font-size: 2.8rem;
+    padding: 12px;
+    font-family: 'Bree Serif', serif;
+    color: #f2f2f2;
+}
+
+.h-secondary {
+    font-size: 2.3rem;
+    padding: 12px;
+    font-family: 'Bree Serif', serif;
+}
+
+.redirect_to_order {
+    font-family: 'Baloo Bhai 2', cursive;
+    color: white;
+}
+
+.btn {
+    padding: 6px 20px;
+    background-color: brown;
+    border: 2px solid white;
+    margin: 18px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    justify-content: center;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.center {
+    text-align: center;
+}

@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  background-image: url('../img/background.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+/* Img, description block */
+#description {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+  margin-left: 32px;
+}
+
+#description .box img {
+  width: 70%;
+  border-radius: 5%;
+  border: 9px solid black;
+}
+
+#description .box {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  padding: 16px; 
+  margin-bottom: 20px;
+  width: 50%;
+}
+
+#description .box label {
+  padding: 10px;
+  margin: 16px;
+  text-align: center;
+  border-radius: 12px;
+  background: #f2f2f2;
+  font-size: 1.3rem;
+  font-family: 'Bree Serif', serif;
+  color: black;
+}
+
+#description .box .second-label{
+  height: 100%;
+}
+
+/*Drop down block*/
+
+.movie-description {
+  display: flex;
+  flex-direction: row;
+  justify-self: start;
+  margin: 10px;
+}
+
+.movie-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.movie-container select {
+  background-color: #fff;
+  border: 0;
+  margin-left: 10px;
+  padding: 5px 15px 5px 15px;
+  appearance: none;
+  font-size: 20px;
+}
+
+
+/*Select seat and payment type block*/
+
+#select-payment-container {
+  display: flex;
+  margin-bottom: 30px;
+  margin-left: 32px;
+}
+
+#selelct-payment-container .payment_type {
+  display: flex;
+  width: 50%;
+  align-self: center;
+  justify-self: center;
+  margin-left: 32px;
+}
+
+#selelct-payment-container .payment_type p {
+  display: flex;
+  margin: 10px 10px 10px 10px;
+  justify-content: center;
+}
+
+#input_payment {
+  text-align: center;
+  border: 1px solid black;
+  display: flex;
+  width: 100%;
+  justify-content: start;
+  align-self: center;
+  justify-self: center;
+  background-color: rgba(0, 0, 0, 0.250);
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 3%;
+}
+
+.pay-text{
+  color: rgb(255, 255, 255);
+  font-family: 'Bree Serif', serif;
+  text-align: center;
+}
+
+.radBtn{margin-right: 10px;
+  vertical-align:middle;
+  margin:7px 7px 0 0 ;}
+
+.radBtn-text{
+  color: rgb(255, 255, 255);
+  font-family: 'Bree Serif', serif;
+}
+
+#input_payment input {
+  justify-content: center;
+}
+
+#input_payment label {
+  color: black;
+  text-align: center;
+}
+
+#select-payment-container .container {
+  width: 50%;
+  padding: 16px;
+  align-self: center;
+  justify-self: center;
+  background-color: rgba(0, 0, 0, 0.250);
+  border: 1px solid black;
+}
+
+.seat {
+  background-color: #0245ff;
+  height: 24px;
+  width: 24px;
+  margin: 3px;
+}
+
+.seat.selected {
+  background-color: #6feaf6;
+}
+
+.seat.occupied {
+  background-color: rgb(129, 129, 129);
+}
+
+.seat:nth-of-type(2) {
+  margin-right: 18px;
+}
+
+.seat:nth-last-of-type(2) {
+  margin-left: 18px;
+}
+
+.seat:not(.occupied):hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.showcase .seat:not(.occupied):hover {
+  cursor: default;
+  transform: scale(1);
+}
+
+.showcase {
+  margin-top: 16px;
+  margin-left: 32px;
+  width: 50%;
+  padding: 5px 10px;
+  color: white;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.showcase li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+}
+
+.showcase li small {
+  margin-left: 2px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.screen {
+  background-color: #fff;
+  height: 70px;
+  width: 100%;
+  margin: 15px 0;
+  transform: rotateX(-45deg);
+  box-shadow: 0 3px 10px rgba(255, 255, 255, 0.7);
+}
+
+p.text {
+  margin: 5px 0;
+}
+
+p.text span {
+  color: #6feaf6;
+}
+
+#calendar {
+  background-color: rgba(0, 0, 0, 0.250);
+  margin: 32px 32px 32px 32px;
+  border: 1px solid black;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+td, th {
+  color: #fff;
+  text-align: center;
+  font-family:'Bree Serif', serif;
+}
+td.today {
+  border: 1px solid black;
+  color: #FFF;
+  background-color: #ff000065;
+}
+h1 {
+  font-family:'Bree Serif', serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.chousenArr{
+  color: #fff;
+text-decoration: none;
+}
+
+.text-MyTick{
+  font-family:'Bree Serif', serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+#count{
+  font-family:'Bree Serif', serif;
+  color: rgb(0, 255, 0);
+}
+#total{
+  font-family:'Bree Serif', serif;
+  color: rgb(0, 255, 0);
+}
+
+.btn_order {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 50%;
+  padding: 6px 20px;
+  background-color: brown;
+  border: 2px solid white;
+  margin: 18px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  justify-content: center;
+  font-family: 'Baloo Bhai 2', cursive;
+}
+#choosenMonth{
+  color: white;
+  font-family: 'Baloo Bhai 2';
+}
+
+#movie{
+  font-family: 'Baloo Bhai 2', cursive;
+}

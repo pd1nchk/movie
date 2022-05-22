@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MTN</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/info.css">
+    <link rel="stylesheet" media="screen and (max-width: 1200px)" href="css/style.css">
+    <link rel="stylesheet" href="reviews.css">
+    <script src="js/reviews.js"></script>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <svg width="30" height="20" viewBox="0 0 30 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <img src="img/logo.svg">
+            </svg>
+        </div>
+        <ul>
+            <li class="item"><a href="main.html"><p class="text-navi">Main</p></a></li>
+            <li class="item" onclick="onClickedOrderItem()"><a href="order.html"><p class="text-navi">Order tickets</p></a></li>
+            <li class="item"><a href="registration.html"><p class="text-navi">Registration</p></a></li>
+            <li class="item"><a href="info.html"><p class="text-navi">About</p></a></li>
+            <li class="item"><a href="cinemas.html"><p class="text-navi">Cinemas</p></a></li>
+        </ul>
+    </nav>
+
+    <h1 class="h1_about">Реквизиты</h1>
+
+    <div id="about">
+        <div class="about_text">
+            <p>ООО "Пробилет"</p>
+            <p>Республика Беларусь, г. Минск,</p>
+            <p>ул. Тимирязева, д. 97, каб. 22-120</p>
+            <p>Расчетный счет: BY80UNBS30122192100000000933</p>
+            <p>в ЗАО "БСБ БАНК", код UNBSBY2X</p>
+            <p>График работы: с 10:00 до 22:00</p>
+            <p>Контактный телефон: +375 (33) 604-11-11</p>
+
+            <p>Пожалуйста, отправляйте пожелания,</p>
+            <p>предложения, комментарии на адрес</p>
+            <p>info@bycard.by</p>
+        </div>
+
+        <div class="about_img">
+            <div class="container">
+                <form>
+
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.."
+                        style="height:200px"></textarea>
+                    <button class="btn">Submit</button>
+                    
+
+                </form>
+               
+            </div>
+           
+        </div>
+    </div>
+    <button  type="button" class="btn" onclick="loadXMLDoc()">
+        Get reviews
+    </button>
+    <br><br>
+    <table id="id"></table>
+</body>
+<footer>
+    <div class="center">
+        <a href="https://www.instagram.com/pdlnchk/"><img src="img/fab_inst.svg"></a>
+        <a href="https://vk.com/podolyanchik55"><img src="img/fab_vk.svg"></a>
+    </div>
+</footer>
+
+<script src="js/main_hadle_order.js"></script>
+<script src="js/reviews.js"></script>
+
+</html>

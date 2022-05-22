@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>anton_logo</title>
+    <defs>
+        <filter x="-40.3%" y="-40.6%" width="180.5%" height="181.2%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="50" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.164929376   0 0 0 0 0.0136257066   0 0 0 0 0.0136257066  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="anton_logo">
+            <circle id="Oval" stroke="#FF0137" fill="#FF0137" cx="256" cy="256" r="255.5"></circle>
+            <g id="Group-4" filter="url(#filter-1)" transform="translate(95.763984, 92.347772)">
+                <g id="Group-3" transform="translate(0.000000, 0.000000)">
+                    <g id="Group-2" transform="translate(152.236016, 51.652228) rotate(170.000000) translate(-152.236016, -51.652228) translate(2.236016, 25.652228)">
+                        <rect id="Rectangle" stroke="#979797" fill="#F7F7F9" x="0.5" y="0.5" width="299" height="51"></rect>
+                        <g id="Group" transform="translate(9.000000, 0.000000)" fill="#636979">
+                            <polygon id="Triangle" transform="translate(30.000000, 26.000000) scale(1, -1) translate(-30.000000, -26.000000) " points="30 0 45 52 15 52"></polygon>
+                            <polygon id="Triangle" points="15 0 30 52 0 52"></polygon>
+                        </g>
+                        <g id="Group" transform="translate(9.000000, 0.000000)" fill="#636979">
+                            <polygon id="Triangle" transform="translate(30.000000, 26.000000) scale(1, -1) translate(-30.000000, -26.000000) " points="30 0 45 52 15 52"></polygon>
+                            <polygon id="Triangle" points="15 0 30 52 0 52"></polygon>
+                        </g>
+                        <g id="Group" transform="translate(68.000000, 0.000000)" fill="#636979">
+                            <polygon id="Triangle" transform="translate(30.000000, 26.000000) scale(1, -1) translate(-30.000000, -26.000000) " points="30 0 45 52 15 52"></polygon>
+                            <polygon id="Triangle" points="15 0 30 52 0 52"></polygon>
+                        </g>
+                        <g id="Group" transform="translate(127.000000, 0.000000)" fill="#636979">
+                            <polygon id="Triangle" transform="translate(30.000000, 26.000000) scale(1, -1) translate(-30.000000, -26.000000) " points="30 0 45 52 15 52"></polygon>
+                            <polygon id="Triangle" points="15 0 30 52 0 52"></polygon>
+                        </g>
+                        <g id="Group" transform="translate(186.000000, 0.000000)" fill="#636979">
+                            <polygon id="Triangle" transform="translate(30.000000, 26.000000) scale(1, -1) translate(-30.000000, -26.000000) " points="30 0 45 52 15 52"></polygon>
+                            <polygon id="Triangle" points="15 0 30 52 0 52"></polygon>
+                        </g>
+                        <g id="Group" transform="translate(245.000000, 0.000000)" fill="#636979">
+                            <polygon id="Triangle" transform="translate(30.000000, 26.000000) scale(1, -1) translate(-30.000000, -26.000000) " points="30 0 45 52 15 52"></polygon>
+                            <polygon id="Triangle" points="15 0 30 52 0 52"></polygon>
+                        </g>
+                    </g>
+                    <g id="Group-2" transform="translate(9.236016, 103.652228)">
+                        <rect id="Rectangle" stroke="#979797" fill="#F7F7F9" x="0.5" y="0.5" width="299" height="51"></rect>
+                        <g id="Group" transform="translate(9.000000, 0.000000)" fill="#636979">
+                            <polygon id="Triangle" transform="translate(30.000000, 26.000000) scale(1, -1) translate(-30.000000, -26.000000) " points="30 0 45 52 15 52"></polygon>
+                            <polygon id="Triangle" points="15 0 30 52 0 52"></polygon>
+                        </g>
+                        <g id="Group" transform="translate(9.000000, 0.000000)" fill="#636979">
+                            <polygon id="Triangle" transform="translate(30.000000, 26.000000) scale(1, -1) translate(-30.000000, -26.000000) " points="30 0 45 52 15 52"></polygon>
+                            <polygon id="Triangle" points="15 0 30 52 0 52"></polygon>
+                        </g>
+                        <g id="Group" transform="translate(68.000000, 0.000000)" fill="#636979">
+                            <polygon id="Triangle" transform="translate(30.000000, 26.000000) scale(1, -1) translate(-30.000000, -26.000000) " points="30 0 45 52 15 52"></polygon>
+                            <polygon id="Triangle" points="15 0 30 52 0 52"></polygon>
+                        </g>
+                        <g id="Group" transform="translate(127.000000, 0.000000)" fill="#636979">
+                            <polygon id="Triangle" transform="translate(30.000000, 26.000000) scale(1, -1) translate(-30.000000, -26.000000) " points="30 0 45 52 15 52"></polygon>
+                            <polygon id="Triangle" points="15 0 30 52 0 52"></polygon>
+                        </g>
+                        <g id="Group" transform="translate(186.000000, 0.000000)" fill="#636979">
+                            <polygon id="Triangle" transform="translate(30.000000, 26.000000) scale(1, -1) translate(-30.000000, -26.000000) " points="30 0 45 52 15 52"></polygon>
+                            <polygon id="Triangle" points="15 0 30 52 0 52"></polygon>
+                        </g>
+                        <g id="Group" transform="translate(245.000000, 0.000000)" fill="#636979">
+                            <polygon id="Triangle" transform="translate(30.000000, 26.000000) scale(1, -1) translate(-30.000000, -26.000000) " points="30 0 45 52 15 52"></polygon>
+                            <polygon id="Triangle" points="15 0 30 52 0 52"></polygon>
+                        </g>
+                    </g>
+                </g>
+                <rect id="Rectangle" fill="#414953" x="9.23601557" y="154.652228" width="300" height="152"></rect>
+                <rect id="Rectangle" fill="#23262B" x="159.236016" y="154.652228" width="150" height="152"></rect>
+                <rect id="Rectangle" fill-opacity="0.15" fill="#23262B" x="159.236016" y="103.652228" width="150" height="51"></rect>
+                <rect id="Rectangle" fill-opacity="0.15" fill="#23262B" transform="translate(226.236016, 38.152228) rotate(170.000000) translate(-226.236016, -38.152228) " x="151.236016" y="12.6522282" width="150" height="51"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
