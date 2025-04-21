@@ -49,10 +49,6 @@ git clone https://github.com/pd1nchk/movie.git
 - Современный веб-браузер (Chrome, Firefox, Safari, Edge)
 - Доступ в интернет
 
-## Лицензия
-
-MIT License
-
 ## Автор
 
 pd1nchk
